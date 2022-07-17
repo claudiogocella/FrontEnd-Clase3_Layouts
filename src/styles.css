@@ -1,0 +1,33 @@
+.contenedor-flex {
+  padding: : 20px;
+  margin: 100px; 
+  width: 80px; 
+  height: 500px; 
+  border: 1px solid blak; 
+  /*display: flex; 
+  flex-wrap: wrap; 
+  flex-direction: row; 
+  justify-content: :start; 
+  align-items: flex-start; */
+  /* align-content: flex-start; */
+}
+
+.hijo {
+  margin: 5px; 
+  width: 100px; 
+  height: 100px; 
+  border: 1px solid red;
+
+}
+
+/*mostrar con muchos div */ 
+
+.uno {
+  /* height: 200px; */ 
+  display: flex;
+  order: 4;
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  /* flex-basis: 25px; */
+  /* align-self: center; */
+}
